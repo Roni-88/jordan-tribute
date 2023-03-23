@@ -53,7 +53,7 @@ main:after {
     border-radius: 50%;
     border: 2px solid transparent;
     cursor: pointer;
-    border-color: rgb(146, 146, 211);
+    border-color: #fff;
 }
 
 .botoes-carrossel .botao.selecionado {

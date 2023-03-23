@@ -22,6 +22,10 @@ main:after {
     justify-content: space-evenly;
 }
 
+.informacoes {
+    margin-bottom: 150px;
+}
+
 .informacoes .logo {
     max-width: 200px;
     margin-bottom: 50px;
@@ -32,7 +36,7 @@ main:after {
     width: 49%;
     font-size: 22px;
     font-weight: bolder;
-    color: #0758ed;
+    color: rgb(45, 136, 232);
     line-height: 30px;
 }
 
@@ -40,11 +44,12 @@ main:after {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .botoes-carrossel .botao {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: 2px solid transparent;
     cursor: pointer;
@@ -52,7 +57,7 @@ main:after {
 }
 
 .botoes-carrossel .botao.selecionado {
-    background-color: rgb(29, 29, 156);
+    background-color: rgb(45, 136, 232);
 }
 
 .menu-lateral {
